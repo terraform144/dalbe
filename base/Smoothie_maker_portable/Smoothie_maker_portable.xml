@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <htmlContent>
+        <head type="vue3">
+        <![CDATA[
+            <titre>Smoothie maker portable</titre>
+            <script src="https://unpkg.com/vue@next"></script>
+        ]]>
+        </head>
+        <header>
+        <![CDATA[
+            <header>
+                <section>Ce modèle n'est pas à vendre</section>
+                <nav>
+                    <ul>
+                        <li>Produit</li>
+                        <li>Panier</li>
+                    </ul>
+                </nav>
+            </header>
+        ]]>
+        </header>
+        <main>
+        <![CDATA[
+            <div id="app"></div>
+            <script>
+                const app = Vue.createApp({
+                    data() {
+                        content: 'This is the main content'
+                    }
+                });
+                const vm = app.mount('#app');
+            </script>
+        ]]>
+        </main>
+        <footer>
+        <![CDATA[
+            <section></section>
+        ]]>
+        </footer>
+    </htmlContent>
+</root>

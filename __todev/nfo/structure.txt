@@ -1,0 +1,18 @@
+// about the dart implementations
+js_base.1.dart > /script/main.js
+/script/js_main.dart > /script/js_main.dart.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+// compile js scripts
+# dart2js -02 -o **.js  **.dart
