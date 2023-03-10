@@ -14,6 +14,7 @@ $routes = [ // here comes all the common routes for the application non prd
   "/" => "base/t144/index.html",
   "/about" => "base/pages/about.php",
   "/contact" => "base/pages/contact.php",
+  "/test/deux" => "base/pages/test.php",
 ];
 $prd_routes = [ // here comes all the prd funnels 
   "/smoothie-maker" => "Smoothie_maker_portable"
