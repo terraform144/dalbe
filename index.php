@@ -20,7 +20,7 @@ $prd_routes = [ // here comes all the prd funnels
 ];
 
 $currentUrl = parse_url($_SERVER["REQUEST_URI"]);
-var_dump($currentUrl);
+//var_dump($currentUrl);
 if (isset($routes[$currentUrl['path']])) {
   require_once ($routes[$currentUrl['path']]);  die();
 } else {
