@@ -2,6 +2,7 @@
 ini_set('display_errors', '1');
 ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
+
 /* NOTE : This index should be written dynamicaly by the ECOMERZ MANAGER APPLICATION
  * 
  * author : zululad - github.com/terraform144
@@ -27,7 +28,7 @@ if (isset($routes[$currentUrl['path']])) {
 } else {
   if ( ! array_key_exists($currentUrl['path'], $prd_routes)) {
 //http_response_code(404);
-    header('Location:localhost');
+    header('Location:/');
   }
 }
 
