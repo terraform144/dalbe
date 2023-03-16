@@ -3,8 +3,22 @@
 //
 $_navigator=<<<EOT
 <style>.menu a {color:white;}
-
+.top-menu {
+  border-radius: 10px;background-color:#1db2ff;padding:5px;margin-left: auto;width:450px;z-index:10000000;
+  margin-right: auto;top:25px;right:10%;
+  position:absolute;color:white; font-weight:bold;text-align:left;
+}
 /*TODO media mobile*/
+@media only screen and (max-width: 800px) {
+  .top-menu {
+    border-radius:0px;right:0px;width:100%;top:0px;padding:5px;
+  }
+  .menu {
+    text-align:right;
+    display:flex;
+    justify-content: space-between;
+  }
+}
 </style>
 <script>
 jQuery(document).ready(function() {
@@ -20,9 +34,7 @@ jQuery(document).ready(function() {
   }); 
 </script>
 <!-- CODIMMO NAV AND RESERVATION MENU -->
-<div style="border-radius: 10px;background-color:#1db2ff;padding:5px;margin-left: auto;width:450px;z-index:10000000;
-margin-right: auto;top:25px;right:10%;
-position:absolute;color:white; font-weight:bold;text-align:left;">
+<div class="top-menu" style="">
    <div><img style="border-radius: 10px;" src="./common/_images/codimmo.png" /></div> 
    <div class="menu"><a href="">Home</a> | <a href="#iDescription">Description</a> | <a href="#iFichiers">Fiches</a> | <a href="#iPlans">Plans</a> | <a href="#iVideo">Vidéo</a></div>
 </div>
