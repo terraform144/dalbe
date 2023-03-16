@@ -8,7 +8,7 @@ error_reporting(E_ALL);
  * author : zululad - github.com/terraform144
  */
 
-require "vendor/autoload.php";
+//require "vendor/autoload.php";
 
 # ROUTES
 $routes = [ // here comes all the common routes for the application non prd
