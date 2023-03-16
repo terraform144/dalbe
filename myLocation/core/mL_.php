@@ -7,13 +7,7 @@
  * v0.0.1
  */
 class mL_ {
-
-
-    public function __construct() {
-
-    }
-
-    /*
+   /*
 
         // Todo
 
@@ -27,5 +21,12 @@ class mL_ {
 
     */
 
+    public function __construct() {
 
+    }
+
+ 
+    public function sendMail() {
+
+    }
 }

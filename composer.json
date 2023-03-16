@@ -15,6 +15,7 @@
     ],
     "require": {
         "omnipay/stripe": "^3.2",
-        "omnipay/mollie": "^5.5"
+        "omnipay/mollie": "^5.5",
+        "symfony/mailer": "^5.4"
     }
 }
