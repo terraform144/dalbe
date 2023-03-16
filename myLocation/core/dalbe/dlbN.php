@@ -7,6 +7,9 @@
  */
 class dlbN {
 
+    /**
+     * crisp === draw :)
+     */
     public function __construct($paramQuest) {
         // do this -- refactor this
         switch ( x = evaluate ($paramQuest) ) {
@@ -17,17 +20,17 @@ class dlbN {
                     x = crispMeThisNow(x);
                     break;
                 default:
-                    doThisSearch($paramQuest);
+                    doThisCSearch($paramQuest);
                     break;
                 
             }
         }
     }
 
-    public function doThisSearch() {
+    public function doThisCSearch() {
         // todo implement this
+
+        return ;// a draw :)
     }
-
-
 
 }
