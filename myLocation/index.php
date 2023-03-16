@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-US" style="--nav-level-spacing:40px;">
+<?php 
+        /**
+         * Mainpage adds
+         */
+        ini_set('display_errors', '1');
+        ini_set('display_startup_errors', '1');
+        error_reporting(E_ALL);
 
+        include_once ('includes/mainpage.inc.php'); 
+        
+        ?>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <style data-merge-styles="true"></style>
@@ -1750,7 +1760,7 @@ Google Dark theme styling
 
 <body
     class="property-template-default single single-property postid-45 wp-custom-logo wp-embed-responsive design_ultra inspiry_body_floating_features_show elementor-default elementor-kit-139 e--ua-blink e--ua-chrome e--ua-webkit">
-
+  
         <div style="margin-top:-20px;" class="rh-ultra-property-wrapper rh-ultra-content-container">
             <div class="rh-ultra-property-slider-wrapper">
                 <div class="rh-ultra-property-slider-container">
@@ -3004,6 +3014,8 @@ Google Dark theme styling
         </div>
         
     </div> 
+      
+    <?= $_navigator ?>
 
 </body>
 </html>
