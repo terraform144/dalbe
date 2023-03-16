@@ -13,7 +13,7 @@ class dlbN {
      * take a draw, and then rest a bit :)
      */
     public function __construct($paramQuest) {
-        // do this -- refactor this
+        // do this -- refactor this and pay attention to unfinite job
         switch ( x = evaluate ($paramQuest) ) {
 
             try {
