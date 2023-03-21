@@ -25,6 +25,8 @@ class dlbN {
                     break;
                 
             }
+        } catch($ex) {
+            
         }
     }
 
