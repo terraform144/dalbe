@@ -4,12 +4,22 @@
     
     // draftbox assisted by ChatGPT.openai.com
 
-*/
+    // todo
+    better interface
 
-require 'XMLHandler';
+
+*/
+        /**
+         * Mainpage adds
+         */
+        ini_set('display_errors', '1');
+        ini_set('display_startup_errors', '1');
+        error_reporting(E_ALL);
+
+require './core/dalbe/XMLHandler.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $xmlHandler = new XMLHandler('monfichier.xml');
+    $xmlHandler = new XMLHandler('./data/main.xml');
     
     if ($_POST['action'] == 'addNode') {
         $xpath = $_POST['xpath'];
@@ -46,7 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $xmlHandler->saveXML();
 }
 
-$xml = simplexml_load_file('monfichier.xml');
+$xml = simplexml_load_file('./data/main.xml');
 ?>
 <!DOCTYPE html>
 <html>
