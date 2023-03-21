@@ -14,12 +14,11 @@ class dlbN {
      */
     public function __construct($paramQuest) {
         // do this -- refactor this and pay attention to unfinite job
-        switch ( x = evaluate ($paramQuest) ) {
-
-            try {
+        try {
+            switch ( $x = evaluate ($paramQuest) ) {
 
                 case abs(x) > 799:
-                    x = crispMeThisNow(x);
+                    $x = crispMeThisNow($x);
                     break;
                 default:
                     doThisCSearch($paramQuest);
