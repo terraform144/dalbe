@@ -1,5 +1,7 @@
 <?php
 
+namespace dalbe;
+
 /**
  * data linearised by known Ntropy where X is arbitrary revealed as a finite value :) -> (pdo/mysql)
  * 
