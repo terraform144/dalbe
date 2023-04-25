@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <main>
-
-    <test>tetste</test>
-
-</main>
+<test id="contenudel'id">tetste</test>
+<landingContent>this is the new value&lt;tmp&gt;content of tmp&lt;/tmp&gt;</landingContent><content>This is the content of the node</content></main>

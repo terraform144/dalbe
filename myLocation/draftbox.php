@@ -5,16 +5,9 @@
     // draftbox assisted by ChatGPT.openai.com
 
     // todo
-    better interface
-
+    [] better interface
 
 */
-        /**
-         * Mainpage adds
-         */
-        ini_set('display_errors', '1');
-        ini_set('display_startup_errors', '1');
-        error_reporting(E_ALL);
 
 require './core/dalbe/XMLHandler.php';
 
@@ -107,10 +100,8 @@ $xml = simplexml_load_file('./data/main.xml');
     <input type="submit" value="Modifier">
 </form>
 
-<h1>Contenu du fichier XML</h1>
-<?php
-echo $xml->asXML();
-?>
+Contenu du fichier XML: 
+<iframe type="text/plain" src="./data/main.xml" style="width:200px;height:20px"/> 
 
 </body>
 </html>
